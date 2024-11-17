@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "../ui/button";
 import { Link } from "react-router-dom";
-
 const Hero = () => {
   return (
     <div className="relative bg-gradient-to-r from-blue-500 to-teal-500 text-white min-h-screen flex items-center">
@@ -31,7 +30,7 @@ const Hero = () => {
         {/* Right Section: Illustration */}
         <div className="lg:w-1/2 flex justify-center lg:justify-end">
           <img
-            src="https://via.placeholder.com/500"
+            src="/undraw_explore_re_8l4v.svg"
             alt="Travel Planning Illustration"
             className="w-full max-w-sm lg:max-w-md"
           />
